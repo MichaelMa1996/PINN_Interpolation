@@ -206,7 +206,7 @@ iterations = 2000
 previous_validation_loss = 99999999.0
 learning_rate = 1e-2
 
-filename = 'C:/Users/mazhi/PINN_Folder/4_bus_60Hz_10s_trimmed.csv'
+filename = '4_bus_60Hz_10s_trimmed.csv'
 df = pd.read_csv(filename, header=None)
 
 time = df.iloc[:, 0].values.reshape(-1, 1)
